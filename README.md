@@ -736,7 +736,7 @@ number of remaining problems:
 
 ### Whitelist
 
- - `igl::polar_svd3x3` (or your previous assignment's `closest_rotation`)
+ - `igl::polar_svd3x3` (or your previous assignment's `closest_rotation`. If you use `igl::polar_svd3x3`, make sure to rescale each 3x3 matrix so its largest coefficient has absolute value one before feeding it into the function.)
  - `igl::min_quad_with_fixed` 
  - `igl::cotmatrix_entries` 
  - `igl::cotmatrix`  (or your previous implementation)
